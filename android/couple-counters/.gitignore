@@ -1,0 +1,21 @@
+# Built application files
+build/
+
+# Local configuration
+local.properties
+
+# Gradle generated files
+*gradle*
+.gradle/
+gradle/
+
+# User-specific configurations
+.idea/
+*.iml
+
+# Others
+captures/
+historial/
+
+# REST API
+countersAPI/

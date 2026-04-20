@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="horizontal"
+    android:contentDescription="@string/counter_text">
+
+    <ImageView
+        android:id="@+id/counter_pic"
+        android:layout_width="70dp"
+        android:layout_height="70dp"
+        android:scaleType="fitCenter"
+        android:background="@drawable/inset_background"
+        />
+
+    <TextView
+        android:id="@+id/counter_text"
+        android:layout_width="match_parent"
+        android:layout_height="70dp"
+        android:textSize="26sp"
+        android:gravity="center"
+        android:text="cucu"
+        android:textColor="@android:color/black"
+        android:contentDescription="@string/counter_text"
+        />
+
+
+
+</LinearLayout>

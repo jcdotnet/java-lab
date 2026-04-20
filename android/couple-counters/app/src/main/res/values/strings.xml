@@ -1,0 +1,13 @@
+<resources>
+    <string name="app_name">Couple\'s counters</string>
+    <string name="action_add_counter">add new counter</string>
+    <string name="action_log_out">log couple out</string>
+    <string name="action_refresh">refresh counters</string>
+    <string name="action_about">visit my website</string>
+    <string name="counter_text">Click here to see counter values</string>
+    <string name="partner1">Partner 1</string>
+    <string name="partner2">Partner 2</string>
+    <string name="title_activity_login">Log couple in</string>
+    <string name="title_activity_register">Sign couple up</string>
+
+</resources>

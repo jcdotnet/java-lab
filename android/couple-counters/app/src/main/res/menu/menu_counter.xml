@@ -1,0 +1,10 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item android:id="@+id/counter_change"
+        android:title="" />
+
+    <item android:id="@+id/counter_delete"
+        android:icon="@mipmap/ic_menu_delete"
+        android:title="delete counter" />
+
+</menu>

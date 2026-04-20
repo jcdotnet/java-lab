@@ -1,0 +1,148 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools" android:layout_width="match_parent"
+    android:layout_height="match_parent" android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:orientation="vertical"
+    tools:context="com.josecarlos.couplecounters.CounterActivity"
+    android:weightSum="1">
+
+
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:layout_gravity="center_horizontal"
+        android:text="Large Text"
+        android:id="@+id/textCounter" />
+
+    <Button
+        style="?android:attr/buttonStyleSmall"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Rename counter"
+        android:textColor="#646464"
+        android:background="@android:color/transparent"
+        android:id="@+id/buttonRenameClick"
+        android:layout_gravity="center_horizontal"
+        android:onClick="buttonRenameClick"/>
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:layout_marginTop="10dp"
+        android:orientation="horizontal">
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:orientation="vertical"
+            android:layout_weight="0.5"
+            android:weightSum="1">
+
+            <ImageView
+            android:layout_width="fill_parent"
+            android:layout_height="100dp"
+            android:id="@+id/imagePartner1"
+             />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="New Text"
+                android:textSize="20sp"
+                android:textStyle="bold"
+                android:layout_gravity="center_horizontal"
+                android:id="@+id/textName1" />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceLarge"
+                android:text="0"
+                android:textSize="50sp"
+                android:id="@+id/textValue1"
+                android:layout_gravity="center_horizontal"
+                android:layout_weight="0.24" />
+
+            <Button
+                style="?android:attr/buttonStyleSmall"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="-"
+                android:textSize="20sp"
+                android:layout_gravity="center_horizontal"
+                android:id="@+id/buttonDec1"
+                android:onClick="buttonDec1Click"/>
+
+            <Button
+                style="?android:attr/buttonStyleSmall"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="+"
+                android:textSize="20sp"
+                android:textColor="#FFF"
+                android:background="#FFBFDF"
+                android:layout_gravity="center_horizontal"
+                android:id="@+id/buttonInc1"
+                android:onClick="buttonInc1Click"/>
+
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:orientation="vertical"
+            android:layout_weight="0.5"
+            android:weightSum="1">
+
+
+            <ImageView
+                android:layout_width="fill_parent"
+                android:layout_height="100dp"
+                 android:id="@+id/imagePartner2"
+             />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="New Text"
+                android:textStyle="bold"
+                android:textSize="20sp"
+                android:layout_gravity="center_horizontal"
+                android:id="@+id/textName2" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceLarge"
+                android:text="0"
+                android:textSize="50sp"
+                android:id="@+id/textValue2"
+                android:layout_gravity="center_horizontal"
+                android:layout_weight="0.22" />
+
+            <Button
+                style="?android:attr/buttonStyleSmall"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="-"
+                android:textSize="20sp"
+                android:id="@+id/buttonDec2"
+                android:layout_gravity="center_horizontal"
+                android:onClick="buttonDec2Click"/>
+
+            <Button
+                style="?android:attr/buttonStyleSmall"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="+"
+                android:textColor="#FFF"
+                android:background="#FFBFDF"
+                android:textSize="20sp"
+                android:id="@+id/buttonInc2"
+                android:layout_gravity="center_horizontal"
+                android:onClick="buttonInc2Click"/>
+
+        </LinearLayout>
+    </LinearLayout>
+
+</LinearLayout>
